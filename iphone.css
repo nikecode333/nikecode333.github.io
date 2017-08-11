@@ -1,0 +1,98 @@
+*{
+    box-sizing:border-box;
+
+}
+
+html, body{
+    margin:0;
+    padding:0;
+}
+
+
+.iphone{
+    margin:20px;
+    border: 1px solid ;
+    width: 222px;
+    height: 467px;
+  
+   // background-image: url(http://www.julie-gauthier.com/wp-content/uploads/2014/10/GCAppHomeScreen.jpg);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: -237px -32px;
+    border-radius: 43px
+
+}
+
+ 
+
+.screen{
+   position:absolute;
+
+    background-image: url(./Natural-iPhone-Wallpaper.jpeg);
+  //background-image: url(http://hdwpro.com/wp-content/uploads/2016/02/Natural-iPhone-Wallpaper.jpeg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+  
+    border: 1px solid ;
+    width: 190px;
+    height: 337px;
+    left: 35px;
+    top: 85px;
+}
+
+
+
+.book_icon{
+   position:absolute;
+
+    background-image: url(./ibooks-app-icon-iphone_151177.png);
+ // background-image: url(http://www.newdesignfile.com/postpic/2011/09/ibooks-app-icon-iphone_151177.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    width: 30px;
+    height: 30px;
+    left: 45px;
+    top: 95px;
+    background-position: center;
+  border-radius: 6px;
+}
+
+
+
+.twitter_icon {
+   position:absolute;
+  background-image: url(./Twitter_icon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    width: 30px;
+    height: 30px;
+    left: 85px;
+    top: 95px;
+    background-position: center;
+  border-radius: 6px;
+}
+
+
+
+.camera{
+    position:absolute;
+    width: 8px;
+    height: 8px;
+    border-radius:50%;
+    background: #000;
+    top:39px;
+    left:126px
+}
+
+.microphone{
+    position:absolute;
+    width: 6px;
+    height: 6px;
+    border-radius:50%;
+    background: #000;
+    top:58px;
+    left:97px
+}
+
